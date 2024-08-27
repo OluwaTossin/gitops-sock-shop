@@ -1,0 +1,26 @@
+# Ignore Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive files (if used)
+.env
+secrets.tfvars
+
+# Ignore Docker files (if used)
+docker-compose.override.yml
+Dockerfile.*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
